@@ -1,0 +1,10 @@
+#QUESTION 11
+fname = input("Please enter your first name: ")
+lname = input("Please enter your last name: ")
+print ("Enter your date of birth (DOB) below")
+month = (input("You can enter the month name: "))
+day = int(input("Please enter the day you were born: "))
+year = int(input("Please enter your birth year: "))
+print ("Thank your")
+print ("Here are your details")
+print(fname,lname,"was born on",month,day,",",year)
